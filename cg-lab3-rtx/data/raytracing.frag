@@ -206,12 +206,12 @@ void initializeDefaultScene()
     cubes[0].Size = 0.7;
     cubes[0].MaterialIdx = 2;
 
-    cubes[1].Center = vec3(-1.0, -2.5, -4.0);
+    cubes[1].Center = vec3(-1.0, -2.2, -4.0);
     cubes[1].Size = 0.5;
     cubes[1].MaterialIdx = 6;
     
     /** TETRAHEDRONS **/
-    tetrahedrons[0].Center = vec3(0.0, 3.0, 0.0);
+    tetrahedrons[0].Center = vec3(-3.0, 3.5, 0.0);
     tetrahedrons[0].Size = 1.2;
     tetrahedrons[0].MaterialIdx = 2;
 }
